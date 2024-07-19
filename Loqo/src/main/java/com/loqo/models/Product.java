@@ -13,6 +13,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * Product entity representing a product in the database.
+ */
 @Entity
 @Getter
 @Setter

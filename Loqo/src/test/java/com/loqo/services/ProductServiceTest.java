@@ -16,6 +16,9 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
+/**
+ * Unit tests for the ProductService class.
+ */
 public class ProductServiceTest {
     
     @Mock
