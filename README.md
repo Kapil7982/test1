@@ -33,7 +33,21 @@ This is a simple Spring Boot application for managing products. The application 
     ```bash
     mvn clean install
     ```
-
+3. application.properties file
+     ```bash
+    spring.application.name=Loqo
+    #changing the server port
+    server.port=8888
+    #db specific properties
+    spring.datasource.url=jdbc:mysql://localhost:3306/database_name
+    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+    spring.datasource.username=root
+    spring.datasource.password=Password
+    
+    #ORM s/w specific properties
+    spring.jpa.hibernate.ddl-auto=update
+    spring.jpa.show-sql=true
+     ```
 ## Running the Application
 
 1. Run the application:
