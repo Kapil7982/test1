@@ -149,7 +149,6 @@ src/
 │   │   └── LoqoApplication.java
 │   └── resources/
 │       ├── application.properties
-│       └── data.sql
 └── test/
     └── java/com/loqo/
         ├── controllers/
